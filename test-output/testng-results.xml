@@ -1,93 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-07T22:22:28 IST" name="Suite" finished-at="2022-06-07T22:22:28 IST" duration-ms="173">
+  <suite started-at="2022-06-08T23:03:37 IST" name="Suite" finished-at="2022-06-08T23:04:28 IST" duration-ms="51494">
     <groups>
     </groups>
-    <test started-at="2022-06-07T22:22:28 IST" name="Test" finished-at="2022-06-07T22:22:28 IST" duration-ms="173">
+    <test started-at="2022-06-08T23:03:37 IST" name="Test-Runner1" finished-at="2022-06-08T23:04:01 IST" duration-ms="23992">
       <class name="com.crm.practice.SeleniumGridPractice">
-        <test-method is-config="true" signature="launchBrowserInRemoteachine(java.lang.String)[pri:0, instance:com.crm.practice.SeleniumGridPractice@67c33749]" started-at="2022-06-07T22:22:28 IST" name="launchBrowserInRemoteachine" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1654620748738" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Can inject only one of <ITestContext, XmlTest> into a @BeforeClass annotated launchBrowserInRemoteachine.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Can inject only one of <ITestContext, XmlTest> into a @BeforeClass annotated launchBrowserInRemoteachine.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
-at org.testng.internal.Parameters.createParameters(Parameters.java:708)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method signature="launchBrowserInRemoteachine(java.lang.String)[pri:0, instance:com.crm.practice.SeleniumGridPractice@5ace1ed4]" started-at="2022-06-08T23:03:37 IST" name="launchBrowserInRemoteachine" finished-at="2022-06-08T23:04:01 IST" duration-ms="23936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowserInRemoteachine -->
-        <test-method signature="launchApplication()[pri:0, instance:com.crm.practice.SeleniumGridPractice@67c33749]" started-at="2022-06-07T22:22:28 IST" name="launchApplication" finished-at="2022-06-07T22:22:28 IST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Can inject only one of <ITestContext, XmlTest> into a @BeforeClass annotated launchBrowserInRemoteachine.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Can inject only one of <ITestContext, XmlTest> into a @BeforeClass annotated launchBrowserInRemoteachine.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
-at org.testng.internal.Parameters.createParameters(Parameters.java:708)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+      </class> <!-- com.crm.practice.SeleniumGridPractice -->
+    </test> <!-- Test-Runner1 -->
+    <test started-at="2022-06-08T23:03:37 IST" name="Test-Runner2" finished-at="2022-06-08T23:04:28 IST" duration-ms="51494">
+      <class name="com.crm.practice.SeleniumGridPractice">
+        <test-method signature="launchBrowserInRemoteachine(java.lang.String)[pri:0, instance:com.crm.practice.SeleniumGridPractice@6283d8b8]" started-at="2022-06-08T23:03:37 IST" name="launchBrowserInRemoteachine" finished-at="2022-06-08T23:04:28 IST" duration-ms="51339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchApplication -->
+        </test-method> <!-- launchBrowserInRemoteachine -->
       </class> <!-- com.crm.practice.SeleniumGridPractice -->
-    </test> <!-- Test -->
+    </test> <!-- Test-Runner2 -->
   </suite> <!-- Suite -->
 </testng-results>
